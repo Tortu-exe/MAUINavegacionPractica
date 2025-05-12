@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MAUINavegacionPractica.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:View="clr-namespace:MAUINavegacionPractica.View"
+    xmlns:local="clr-namespace:MAUINavegacionPractica"
+    Title="MAUINavegacionPractica"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage" />
+    <ShellContent ContentTemplate="{DataTemplate View:PageOne}" Route="PageOne" />
+    <ShellContent ContentTemplate="{DataTemplate View:PageTwo}" Route="PageTwo" />
+
+
+
+</Shell>

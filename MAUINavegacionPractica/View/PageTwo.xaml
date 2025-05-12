@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MAUINavegacionPractica.View.PageTwo"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="PageTwo">
+    <VerticalStackLayout>
+        <Label
+            HorizontalOptions="Center"
+            Text="Bienvenido a la página número 2!"
+            VerticalOptions="Center" />
+        <Button Margin="20" Text="Volver" />
+        <Button Margin="20" Text="Ir a MainPage" />
+    </VerticalStackLayout>
+</ContentPage>
