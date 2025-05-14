@@ -10,7 +10,41 @@
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" />
 
-        <Button Command="{Binding goToPage2Command}" Margin="20" Text="Ir a pagina número 2" />
-        <Button Command="{Binding goBackCommand}" Margin="20" Text="Volver" />
+
+        <Entry
+            Margin="20"
+            Placeholder="Nombre"
+            Text="{Binding Name}" />
+        <Entry
+            Margin="20"
+            Placeholder="Apellido"
+            Text="{Binding Surname}" />
+        <Entry
+            Margin="20"
+            Keyboard="Numeric"
+            Placeholder="Edad"
+            Text="{Binding Age}" />
+        <Entry
+            Margin="20"
+            Placeholder="Correo"
+            Text="{Binding Mail}" />
+
+
+
+        <Button
+            Margin="20"
+            Command="{Binding saveContactCommand}"
+            Text="Guardar Contacto" />
+
+
+
+        <Button
+            Margin="20"
+            Command="{Binding goToPage2Command}"
+            Text="Ir a pagina número 2" />
+        <Button
+            Margin="20"
+            Command="{Binding goBackCommand}"
+            Text="Volver" />
     </VerticalStackLayout>
 </ContentPage>

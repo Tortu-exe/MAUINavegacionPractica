@@ -4,9 +4,9 @@ namespace MAUINavegacionPractica.View;
 
 public partial class PageOne : ContentPage
 {
-	public PageOne()
+	public PageOne(PageOneViewModel vm)
 	{
 		InitializeComponent();
-		BindingContext = new PageOneViewModel();
+		BindingContext = vm;
 	}
 }

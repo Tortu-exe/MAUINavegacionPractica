@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MAUINavegacionPractica.Model
 {
-    public class Contact
+    public class ContactoModel
     {
         public string Name { get; set; }
         public string Surname { get; set; }
@@ -14,7 +14,7 @@ namespace MAUINavegacionPractica.Model
         public string Mail { get; set; }
 
 
-        public Contact()
+        public ContactoModel()
         {
             Name = string.Empty;
             Surname = string.Empty;
@@ -22,7 +22,7 @@ namespace MAUINavegacionPractica.Model
             Mail = string.Empty;            
         }
 
-        public Contact(string name, string surname, int age, string mail)
+        public ContactoModel(string name, string surname, int age, string mail)
         {
             Name = name;
             Surname = surname;
