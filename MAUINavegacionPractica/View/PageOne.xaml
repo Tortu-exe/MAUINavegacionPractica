@@ -10,7 +10,7 @@
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" />
 
-        <Button Margin="20" Text="Ir a pagina número 2" />
-        <Button Margin="20" Text="Volver" />
+        <Button Command="{Binding goToPage2Command}" Margin="20" Text="Ir a pagina número 2" />
+        <Button Command="{Binding goBackCommand}" Margin="20" Text="Volver" />
     </VerticalStackLayout>
 </ContentPage>

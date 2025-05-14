@@ -9,7 +9,13 @@
             HorizontalOptions="Center"
             Text="Bienvenido a la página número 2!"
             VerticalOptions="Center" />
-        <Button Margin="20" Text="Volver" />
-        <Button Margin="20" Text="Ir a MainPage" />
+        <Button
+            Margin="20"
+            Command="{Binding goBackCommand}"
+            Text="Volver" />
+        <Button
+            Margin="20"
+            Command="{Binding goHomeCommand}"
+            Text="Ir a MainPage" />
     </VerticalStackLayout>
 </ContentPage>

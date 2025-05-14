@@ -1,16 +1,14 @@
 ﻿using MAUINavegacionPractica.ViewModel;
 
-namespace MAUINavegacionPractica
+namespace MAUINavegacionPractica;
+
+public partial class MainPage : ContentPage
 {
-    public partial class MainPage : ContentPage
+    public MainPage()
     {
-        public MainPage()
-        {
-            InitializeComponent();
-            BindingContext = new MainPageViewModel();
-        }
-
-
+        InitializeComponent();
+        BindingContext = new MainPageViewModel();
     }
+
 
 }
